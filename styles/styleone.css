@@ -1,0 +1,26 @@
+html{
+    font-size: 17px;
+    font-family: 'Noto Serif', serif;
+    background-color: white;
+}
+a{
+    color: indianred;
+}
+a:hover{
+    color: black;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    line-height: 2;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+    padding: 3px 20px 60px 20px;
+    background-color: white;
+}
+blockquote{
+    background-color: paleturquoise;
+}
