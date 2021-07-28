@@ -7,10 +7,10 @@
     </head>
     <body>
         {{content}}
-      {% for post in site.category.society%}
+      {% for posts in site.category.society%}
       <ol>
         <li>
-          <a href="{{post.url}}">{{post.title}}</a>
+          <a href="{{posts.url}}">{{posts.title}}</a>
         </li>
       </ol>
        {% endfor %}
