@@ -7,8 +7,9 @@
     </head>
     <body>
         {{content}}
-      {% for posts in site.category.society%}
+     
       <ol>
+         {% for posts in site.category.society%}
         <li>
           {{posts.title}}
         </li>
